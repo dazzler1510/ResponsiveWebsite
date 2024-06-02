@@ -1,0 +1,196 @@
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.header {
+    background-color: #ffffff;
+}
+
+.logo img {
+    height: 24px;
+    width: 162.57px;
+}
+
+
+.search-bar-wrapper {
+    width: 360px;
+}
+
+.search-bar {
+    width: 100%;
+}
+
+.search-bar input {
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #5c5c5c;
+    background-color: #f2f2f2;
+}
+
+
+.account {
+    display: flex;
+    align-items: center;
+}
+
+.account #loggedIn {
+    display: flex;
+    align-items: center;
+}
+
+.group-header {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 200px;
+    overflow: hidden;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('path/to/your/background-image.jpg') no-repeat center center;
+    background-size: cover;
+    filter: brightness(0.5);
+}
+
+.group-header-text {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+}
+
+.group-header h2 {
+    margin: 0
+}
+
+.btn-follow{
+    color: #000000;
+    background-color: #EDEEF0;
+}
+
+.btn-followed{
+    color: #EDEEF0;
+    background-color: #000000;
+}
+
+.card-title {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.recommended-group {
+    justify-content: space-between;
+}
+
+.recommended-group img {
+    margin-right: 10px;
+}
+
+/* Custom styles for the signup modal */
+.modal-dialog {
+    max-width: 750px;
+    margin: 1.75rem auto;
+}
+
+.modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal-header .modal-title {
+    font-weight: bold;
+}
+
+.modal-header .close {
+    margin-top: -1.5rem;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.modal-body p {
+    margin-bottom: 1rem;
+}
+
+#signupForm .form-control {
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+#signupForm .btn {
+    border-radius: 0.25rem;
+}
+
+#signupForm .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+#signupForm .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+#signupModal .text-center a {
+    color: #007bff;
+}
+
+#signupModal .text-center a:hover {
+    text-decoration: underline;
+}
+
+.post {
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.post-header {
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 8px;
+}
+
+.post-category img {
+    margin-right: 8px;
+}
+
+.post-category span {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.post-actions .btn {
+    color: #6c757d;
+}
+
+.post-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 12px 0;
+}
+
+.post-excerpt {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.post-footer {
+    border-top: 1px solid #dee2e6;
+    padding-top: 8px;
+}
+
+.post-footer img {
+    margin-right: 8px;
+}
+
+.post-footer span {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.post-footer .btn {
+    color: #6c757d;
+}
